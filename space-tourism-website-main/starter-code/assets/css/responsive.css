@@ -1,0 +1,293 @@
+@media(min-width: 700px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+    }
+    .container-home{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/home/background-home-tablet.jpg);
+        color: rgb(216, 208, 208);
+        background-size: cover;
+    }
+    .navbar{
+        display: flex;
+        padding: 3% 5%;
+        width: 62%;
+        font-size: 18px;
+        background-color: rgb(100 107 126 / 42%);
+        margin-top: 5%;
+        margin-left: 30%;
+        justify-content: space-between;
+        border: none;
+    }
+    .nav:hover{
+        /* text-decoration: underline 2px solid white;
+        padding-bottom: 1px; */
+        border-bottom: 2px soild white;
+    }
+    
+    .explore{
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        height: 120px;
+        width: 12%;
+        margin-top: 30%;
+        text-transform: uppercase;
+        border: none;
+        font-size: 16px;
+    }
+    
+    .paragraph{
+        width: 70%;
+        margin-left: 10%;
+        margin-top: 20%;
+        padding: 3% 15% 3% 1%;
+    }
+    .flex{
+        display: flex;
+    }
+    
+    .so{
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    .space{
+        font-size: 5em;
+        font-weight: 800;
+        letter-spacing: 10px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    /* #paragraph{
+        
+    } */
+    
+    hr{
+        width: 5px;
+        height: 2%;
+    }
+    .logo{
+        padding: 2px;
+        height: 55px;
+        width: 55px;
+        background-color: white;
+        margin-top: 7%;
+        margin-left: 5%;
+        border-radius: 50%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a.active::after{
+        content: '';
+        width: auto;
+        height: 2px;
+        margin-top: 2px;
+        background: white;
+        display: block;
+    }
+    .hamburger{
+        display: none;
+    }
+    
+}
+
+
+
+@media(min-width: 500px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+    }
+    .container-home{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/home/background-home-tablet.jpg);
+        color: rgb(216, 208, 208);
+        background-size: cover;
+    }
+    .navbar{
+        display: none;
+        /* display: flex;
+        padding: 2% 5%;
+        width: 55%;
+        background-color: rgb(100 107 126 / 42%);
+        margin-top: 5%;
+        margin-left: 40%;
+        justify-content: space-between;
+        border: none; */
+    }
+    /* .nav:hover{
+        text-decoration: underline 2px solid white;
+        padding-bottom: 1px;
+        border-bottom: 2px soild white;
+    } */
+    
+    .explore{
+        
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        height: 125px;
+        width: 18%;
+        margin-top: 17%;
+        text-transform: uppercase;
+        border: none;
+        font-size: 16px;
+    }
+    
+    .paragraph{
+        width: 63%;
+        margin-left: 8%;
+        margin-top: 11%;
+        padding: 3% 8% 3% 1%;
+    }
+    .flex{
+        display: flex;
+    }
+    
+    .so{
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    .space{
+        font-size: 5em;
+        font-weight: 800;
+        letter-spacing: 10px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    #paragraph{
+        font-size: 1.1em;
+    }
+    
+    hr{
+        width: 5px;
+        height: 2%;
+    }
+    .logo{
+        padding: 2px;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        margin-top: 5%;
+        margin-left: 6%;
+        border-radius: 50%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .hamburger{
+        width: 5%;
+        margin-left: 75%;
+        margin-top: 7%;
+    }
+}
+
+@media(max-width: 500px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+    }
+    .container-home{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/home/background-home-mobile.jpg);
+        color: rgb(216, 208, 208);
+        background-size: cover;
+    }
+    .navbar{
+        display: none;
+        /* display: flex;
+        padding: 2% 5%;
+        width: 55%;
+        background-color: rgb(100 107 126 / 42%);
+        margin-top: 5%;
+        margin-left: 40%;
+        justify-content: space-between;
+        border: none; */
+    }
+    /* .nav:hover{
+        text-decoration: underline 2px solid white;
+        padding-bottom: 1px;
+        border-bottom: 2px soild white;
+    } */
+    
+    .explore{
+        
+        background-color: white;
+        color: black;
+        border-radius: 50%;
+        height: 125px;
+        width: 18%;
+        margin-top: 17%;
+        text-transform: uppercase;
+        border: none;
+        font-size: 16px;
+    }
+    
+    .paragraph{
+        width: 63%;
+        margin-left: 8%;
+        margin-top: 11%;
+        padding: 3% 8% 3% 1%;
+    }
+    .flex{
+        display: flex;
+    }
+    
+    .so{
+        text-transform: uppercase;
+        font-size: 1.3em;
+    }
+    .space{
+        font-size: 5em;
+        font-weight: 800;
+        letter-spacing: 10px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    #paragraph{
+        font-size: 1.1em;
+    }
+    
+    hr{
+        width: 5px;
+        height: 2%;
+    }
+    .logo{
+        padding: 2px;
+        height: 50px;
+        width: 50px;
+        background-color: white;
+        margin-top: 5%;
+        margin-left: 6%;
+        border-radius: 50%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .hamburger{
+        width: 5%;
+        margin-left: 75%;
+        margin-top: 7%;
+    }   
+}
+
+
+/* <ul class="num-paragraph"> 
+      <li class="num"><a class="active" href="technology-vehicle.html">1</a> </li>
+      <li class="num"><a href="technology-spaceport.html">2</a></li>
+      <li class="num chosen"><a class="chosen" href="technology-capsule.html">3</a></li>  
+</ul> */

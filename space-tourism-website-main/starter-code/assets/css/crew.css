@@ -1,0 +1,396 @@
+
+@media screen and (min-width: 1025px)  {
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .container-crew{
+        height: 100%;
+        width: 100%;
+        color: rgb(216, 208, 208);
+        background-image: url(assets/crew/background-crew-desktop.jpg);
+    }
+    
+    .flight-engineer{
+        text-transform: uppercase;
+        font-size: 1.5em;
+    }
+    
+    .crew-persons{
+        width: 30%;
+        height: 30%;
+        margin-top: 2%;
+        margin-right: 5%;
+    }
+    
+    .paragraph-crew{
+        width: 55%;
+        margin-left: 5%;
+        margin-top: 4%;
+        padding: 3% 7% 3% 7%;
+    }
+    .crew-names{
+        font-size: 2.2em;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    #paragraph-crew{
+        font-size: 1.2em;
+    }
+
+    .carousel__slide{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .carousel__button{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    
+    
+    .carousel__button-left{
+        left: 35px;
+    }
+    .carousel__button-right{
+        right: 35px;
+    }
+    .carousel__nav{
+        position: absolute;
+        top: 85%;
+        /* bottom: 0; */
+        left: 11%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    
+    }
+    .carousel__indicator{
+        border: 0;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background: rgba(235, 229, 229, 0.3);
+        margin: 0 12px;
+        cursor: pointer;
+    }
+    .carousel__indicator.current__slide{
+        background: #ffffff;
+    }
+    
+}
+
+@media screen and (min-width: 721px) and (max-width: 1024px) {
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    .container-crew{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/crew/background-crew-tablet.jpg);
+        color: rgb(216, 208, 208);
+        background-size: cover;
+    }
+
+    .crew-launch {
+        margin-top: 15%;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin-left: 10%;
+        font-size: 2em;
+        text-transform: uppercase;
+    }
+   
+    
+    .flight-engineer{
+        text-transform: uppercase;
+        font-size: 1.7em;
+    }
+    
+    .crew-persons{
+        width: 42%;
+        height: 30%;
+        margin-top: 6%;
+        margin-right: 3%;
+    }
+    
+    .paragraph-crew{
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 4%;
+        padding: 3% 2% 3% 2%;
+    }
+    .crew-names{
+        font-size: 2.5em;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    #paragraph-crew{
+        font-size: 2.2em;
+    }
+
+
+    .carousel__slide{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .carousel__button{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    
+    
+    .carousel__button-left{
+        left: 35px;
+    }
+    .carousel__button-right{
+        right: 35px;
+    }
+    .carousel__nav{
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    
+    }
+    .carousel__indicator{
+        border: 0;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background: rgba(235, 229, 229, 0.3);
+        margin: 0 12px;
+        cursor: pointer;
+    }
+    .carousel__indicator.current__slide{
+        background: #ffffff;
+    }
+    
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 720px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-crew{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/crew/background-crew-mobile.jpg);
+        color: rgb(216, 208, 208);
+        background-size: cover;
+    }
+
+    .crew-launch {
+        margin-top: 15%;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-left: 6%;
+        font-size: 3.2em;
+        text-transform: uppercase;
+    }
+   
+    #noflex{
+        display: block;
+    }
+    
+    .flight-engineer{
+        text-transform: uppercase;
+        font-size: 3em;
+    }
+    
+    .crew-persons{
+        width: 65%;
+        height: 30%;
+        margin-top: 7%;
+        margin-left: 16%;
+        margin-right: 5%;
+    }
+    
+    .paragraph-crew{
+        width: 90%;
+        margin-left: 1%;
+        margin-top: 4%;
+        padding: 3% 5% 3% 5%;
+    }
+    .crew-names{
+        font-size: 3.5em;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    #paragraph-crew{
+        font-size: 3em;
+    }
+
+    .carousel__slide{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .carousel__button{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    
+    
+    .carousel__button-left{
+        left: 35px;
+    }
+    .carousel__button-right{
+        right: 35px;
+    }
+    .carousel__nav{
+        position: absolute;
+        bottom: 0;
+        left: 40%;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    
+    }
+    .carousel__indicator{
+        border: 0;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background: rgba(235, 229, 229, 0.3);
+        margin: 0 12px;
+        cursor: pointer;
+    }
+    .carousel__indicator.current__slide{
+        background: #ffffff;
+    }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 499px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-crew{
+        height: 100%;
+        width: 100%;
+        background-image: url(assets/crew/background-crew-mobile.jpg);
+        color: rgb(216, 208, 208);
+        background-size: cover;
+    }
+
+    .crew-launch {
+        margin-top: 15%;
+        font-weight: 700;
+        letter-spacing: 3px;
+        margin-left: 6%;
+        font-size: 1.7em;
+        text-transform: uppercase;
+    }
+   
+    #noflex{
+        display: block;
+    }
+    
+    .flight-engineer{
+        text-transform: uppercase;
+        font-size: 1.6em;
+    }
+    
+    .crew-persons{
+        width: 65%;
+        height: 30%;
+        margin-top: 7%;
+        margin-left: 16%;
+        margin-right: 5%;
+    }
+    
+    .paragraph-crew{
+        width: 90%;
+        margin-left: 1%;
+        margin-top: 4%;
+        padding: 3% 5% 3% 5%;
+    }
+    .crew-names{
+        font-size: 2.8em;
+        font-weight: 800;
+        letter-spacing: 3px;
+        margin: 5% 0;
+        text-transform: uppercase;
+    }
+    #paragraph-crew{
+        font-size: 2em;
+    }
+
+    .carousel__slide{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .carousel__button{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    
+    
+    .carousel__button-left{
+        left: 35px;
+    }
+    .carousel__button-right{
+        right: 35px;
+    }
+    .carousel__nav{
+        position: absolute;
+        top: 85%;
+        /* bottom: 0; */
+        left: 11;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    
+    }
+    .carousel__indicator{
+        border: 0;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+        background: rgba(235, 229, 229, 0.3);
+        margin: 0 12px;
+        cursor: pointer;
+    }
+    .carousel__indicator.current__slide{
+        background: #ffffff;
+    }
+
+}
