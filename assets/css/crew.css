@@ -208,7 +208,7 @@
         font-weight: 700;
         letter-spacing: 3px;
         margin-left: 6%;
-        font-size: 3.2em;
+        font-size: 1.5em;
         text-transform: uppercase;
     }
    
@@ -218,7 +218,7 @@
     
     .flight-engineer{
         text-transform: uppercase;
-        font-size: 3em;
+        font-size: 1.2em;
     }
     
     .crew-persons{
@@ -231,19 +231,19 @@
     
     .paragraph-crew{
         width: 90%;
-        margin-left: 1%;
+        margin-left: 5%;
         margin-top: 4%;
         padding: 3% 5% 3% 5%;
     }
     .crew-names{
-        font-size: 3.5em;
+        font-size: 2em;
         font-weight: 800;
         letter-spacing: 3px;
         margin: 5% 0;
         text-transform: uppercase;
     }
     #paragraph-crew{
-        font-size: 3em;
+        font-size: 1em;
     }
 
     .carousel__slide{
