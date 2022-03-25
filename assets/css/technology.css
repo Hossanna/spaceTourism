@@ -318,13 +318,13 @@
         margin-top: 6%;
         font-weight: 800;
         letter-spacing: 3px;
-        margin-left: 10%;
-        font-size: 1.3em;
+        margin-left: 6%;
+        font-size: 1.5em;
         text-transform: uppercase;
     }
     
     .launch{
-        font-size: 2em;
+        font-size: 1.2em;
         font-weight: 800;
         letter-spacing: 5px;
         margin: 5% 0;
@@ -336,7 +336,7 @@
         letter-spacing: 2px;
     }
     .num{
-        cursor: pointer;
+        cursor: pointer;   
         color: white;
         border-radius: 50%;
         border: 0.5px solid white;
@@ -344,27 +344,27 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
         cursor: pointer;
-        margin-top: -250%;
-        margin-bottom: 777%;
+        margin-top: 315%;
+        margin-bottom: 190%;
     
     }
     
     .paragraph-tech{
-        width: 77%;
-        margin-left: 15%;
-        margin-top: 6%;
-        font-size: .8em;
-        padding: 3% 2% 3% 1%;
+        width: 75%;
+        margin-left: 14%;
+        margin-top: 15%;
+        font-size: 1em;
+        padding: 3% 2% 3% 2%;
     }
     
     .num-paragraph{
         color: black;
-        width: 1.5%;
-        margin-left: 4%;
-        margin-top: 13%;
+        width: 2.5%;
+        margin-left: 5%;
+        margin-top: 10%;
         text-align: center;
         
     }
@@ -378,6 +378,7 @@
     .num a {
         margin: 21%;
         color: white;
+        font-size: 20px;
         text-decoration: none;
     }
     
@@ -388,18 +389,17 @@
     .chosen a{
         color: black;
     }
-
     .launch-vehicle{
         display: none;
     }
     .launch-vehicle-landscape{
         width: 90%;
-        margin-left: 5%;
         margin-top: 5%;
+        margin-left: 5%;
     }
 
     #paragraph-tech{
-        font-size: 1.3em;
+        font-size: 1em;
     }
     
 }

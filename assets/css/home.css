@@ -395,84 +395,30 @@
     }
     .display{
         display: block;
-        width: 45%;
+        width: 35%;
         height: 13%;
         margin-top: 15%;
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-left: 20%;
         justify-content: space-between;
         border: none;
     }
-    
-    .hamburger{
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 60px;
-        height: 60px;
-        cursor: pointer;
-        margin-top: 2%;
-        margin-left: 55%;
-        transition: all .5s ease-in-out;
-    }
-    .open{
-        margin-top: 2%;
-        margin-left: 0%;
-        cursor: pointer;
-    }
-
-    .burger{
-        width: 40px;
-        height: 5px;
-        background: white;
-        border-radius: 5px;
-    }
-
-    .burger::before,
-    .burger::after{
-        content: '';
-        position: absolute;
-        width: 40px;
-        height: 5px;
-        background: white;
-        border-radius: 5px;
-    }
-
-    .burger::before{
-        transform: translateY(-14px);
-    }
-
-    .burger::after{
-        transform: translateY(14px);
-    }
-
-    /* ANIMATION */
-
-    .hamburger.open .burger{
-        transform: translateX(-55px);
-        background: transparent;
-        box-shadow: none;
-    }
-    .hamburger.open .burger::before{
-        transform: rotate(45deg) translate(35px, -35px);
-    }
-    .hamburger.open .burger::after{
-        transform: rotate(-45deg) translate(35px, 35px);
+    .nav{
+         padding-bottom: 15px;
+        
     }
     
     .explore{
         background-color: white;
         color: black;
         border-radius: 50%;
-        height: 210px;
-        width: 50%;
-        margin-left: 27%;
-        margin-top: 26%;
-        margin-bottom: 10%;
+        height: 140px;
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 27%;
         text-transform: uppercase;
         border: none;
-        font-size: 30px;
+        font-size: 1.2em;
     }    
     .explore a{
         color: black;
@@ -484,10 +430,9 @@
 
     
     .paragraph{
-        width: 90%;
-        margin-left: 8%;
-        margin-top: 11%;
-        padding: 3% 8% 3% 1%;
+        margin-left: 3%;
+        margin-top: 15%;
+        padding: 3% 6% 3% 3%;
     }
     .flex{
         display: flex;
@@ -495,17 +440,17 @@
     
     .so{
         text-transform: uppercase;
-        font-size: 2.3em;
+        font-size: 1.2em;
     }
     .space{
-        font-size: 5em;
+        font-size: 3em;
         font-weight: 800;
         letter-spacing: 10px;
         margin: 5% 0;
         text-transform: uppercase;
     }
     #paragraph{
-        font-size: 2.4em;
+        font-size: 1em;
     }
     
     hr{
@@ -526,7 +471,63 @@
         color: white;
         text-decoration: none;
     }
+    .hamburger{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        margin-top: 6%;
+        margin-left: 58%;
+        transition: all .5s ease-in-out;
+    }
+    .open{
+        margin-top: 3%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+
+    .burger{
+        width: 40px;
+        height: 5px;
+        background: white;
+        border-radius: 5px;
+    }
+
+    .burger::before,
+    .burger::after{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 5px;
+        background: white;
+        border-radius: 5px;
     
+    }
+
+    .burger::before{
+        transform: translateY(-12px);
+    }
+
+    .burger::after{
+        transform: translateY(12px);
+    }
+
+    /* ANIMATION */
+
+    .hamburger.open .burger{
+        transform: translateX(-50px);
+        background: transparent;
+        box-shadow: none;
+    }
+    .hamburger.open .burger::before{
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    .hamburger.open .burger::after{
+        transform: rotate(-45deg) translate(35px, 35px);
+    }    
 }
 
 

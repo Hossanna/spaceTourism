@@ -285,22 +285,23 @@
 
     
     .pick {
-        margin-left: 24%;
-        margin-top: 15%;
+        margin-left: 28%;
+        margin-top: 10%;
         font-weight: 800;
-        width: 173%;
+        width: 130%;
         letter-spacing: 7px;
         text-transform: uppercase;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .small-navbar {
         display: flex;
-        padding: 2% 6%;
+        padding: 2% 8%;
         width: 100%;
-        margin-top: 33%;
-        margin-left: -48%;
-        font-size: 1em;
+        margin-top: 22%;
+        margin-right: 0%;
+        margin-left: -50%;
+        font-size: 1.2em;
         justify-content: space-between;
         border: none;
         text-transform: uppercase;
@@ -328,21 +329,21 @@
         width: 85%;
         margin-left: 8%;
         margin-top: 5%;
-        font-size: 1.5em;
+        font-size: 1em;
         padding: 1% 1% 1% 1%;
     }
 
     .moon-header {
-        font-size: 3em;
+        font-size: 2.5em;
         font-weight: 800;
         letter-spacing: 8px;
-        margin-top: 15%;
-        margin-left: 24%;
+        margin: 10% 29%;
         text-transform: uppercase;
     }
 
     .distance-d {
-        width: 86%;
+        
+        width: 80%;
         padding-left: 0%;
         padding-top: 20px;
         margin-top: 15px;
@@ -353,16 +354,17 @@
     .hr-destination {
         border: 1px solid grey;
         margin-top: 4%;
-        width: 75%;
+        width: 80%;
         height: 0px;
         border-radius: 2px;
-        margin-left: 10%;
+        margin-left: 9%;
     }
 
     .moon {
-        width: 145%;
-        height: 68%;
-        margin-left: 24%;
-        margin-top: 50%;
+        width: 120%;
+        height: 58%;
+        margin-left: 36%;
+        margin-top: 52%;
+    
     }
 }
